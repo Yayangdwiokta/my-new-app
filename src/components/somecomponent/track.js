@@ -1,5 +1,5 @@
-import './App.css'
-import data from '../../simple/data.js'
+import "./App.css";
+import data from "../../data/dataAlbum";
 import { GiPlayButton, GiPreviousButton, GiNextButton } from "react-icons/gi";
 
 const TrackAlbums = ({ name, album, images, songTitle, artist }) => (
